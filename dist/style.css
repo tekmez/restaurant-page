@@ -8,37 +8,52 @@ body{
 .introduction{
     margin: 350px 200px;
 }
+h1{
+    color: rgb(252, 141, 14);
+}
+/* nav */
 button{
     margin-right: 25px;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(252, 141, 14);
-    background: none;
-    border-radius: 5px;
     font-size: 25px;
+    transition: 0,3s;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
 }
+.btn-nav{
+    position: absolute;
+    top: 25px;
+}
+
 /* Menu */
 .menu{
     text-align: center;
     margin-left: 50px;
     margin-top: 150px;
 }
-.vegetarian{
+.menu > *{
+    border-radius: 10px;
+    position: relative;
     width: 250px;
 }
 .chicken{
-    position: relative;
-    width: 250px;
     left: 20em;
     bottom: 235px;
 }
 .beef{
-    width: 250px;
-    position: relative;
     bottom: 77px;
 }
 .pepperoni{
-    width: 250px;
-    position: relative;
     left: 20em;
     bottom: 260px;
+}
+/* Contact */
+.contact{
+    text-align: center;
+    margin-top: 20%;
 }

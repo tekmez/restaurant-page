@@ -10,21 +10,8 @@ function creatHome(){
     const h1 = document.createElement('h1');
     h1.innerHTML= 'Fast Food';
     introduction.appendChild(h1);
-    
-    const home = document.createElement('button');
-    home.innerText = 'Home';
-    introduction.appendChild(home);
-
-    const menu = document.createElement('button');
-    menu.innerText = 'Menu';
-    introduction.appendChild(menu);
-
-    const contact = document.createElement('button');
-    contact.innerText = 'Contact';
-    introduction.appendChild(contact);
 
     return introduction;
 }
-
 
 export default creatHome;
